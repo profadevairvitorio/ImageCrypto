@@ -3,9 +3,9 @@
 require_relative 'encryptor'
 require_relative 'decryptor'
 
-image_path = 'image.jpg'
+image_path = 'foo.jpg'
 
-message = 'Mensagem secreta!'
+message = 'Foo Bar'
 
 encryptor = Encryptor.new(image_path)
 encrypted_data = encryptor.encrypt(message)
